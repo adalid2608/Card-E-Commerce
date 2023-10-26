@@ -1,10 +1,10 @@
 
 <main class="w-full flex">
     <div class="w-1/2">
-        <app-card *ngFor="let producto of Lista1" [nombreProducto]="nombre" [imagenProducto]="imagen" [precioProducto]="precio"></app-card>   
+        <app-card *ngFor="let producto of Lista1" [nombreProducto]=producto.nombre [imagenProducto]=producto.imagen [precioProducto]=producto.precio></app-card>   
     </div>
     <div class="w-1/2">
-        <app-card *ngFor="let producto of Lista1" [nombreProducto]="nombre" [imagenProducto]="imagen" [precioProducto]="precio"></app-card>    
+        <app-card *ngFor="let producto of Lista2" [nombreProducto]=producto.nombre [imagenProducto]=producto.imagen [precioProducto]=producto.precio></app-card>    
     </div>
 </main>
 <router-outlet></router-outlet>
