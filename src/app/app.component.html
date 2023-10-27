@@ -1,12 +1,21 @@
 
-<main class="w-full flex">
+<div class="flex mt-4 items-center justify-center">
+    <mat-icon aria-hidden="false" fontIcon="arrow_back" class="w-1/12 h-10"></mat-icon>
+    <input type="text" class= "w-9/12 border-2 mt-2 rounded-md h-10 pl-10 mb-5 m-1" placeholder="Earphone">
+        <mat-icon aria-hidden="false" fontIcon="search" class="w-1/12 h-10 mt-1 absolute left-14"></mat-icon>
+    <mat-icon aria-hidden="false" fontIcon="shopping_cart" class="w-1/12 h-10 ml-3"></mat-icon>
+</div>
+<hr>
+    <div class="flex justify-between mt-2 items-center">
+        <span class="text-xs ml-4 font-medium">Search result for "Earphone"</span>
+        <button class="mr-5 h-6 w-16 border-2 rounded-md text-xs">Filters</button>
+    </div>
+<div class="w-full flex">
     <div class="w-1/2">
         <app-card *ngFor="let producto of Lista1" [nombreProducto]=producto.nombre [imagenProducto]=producto.imagen [precioProducto]=producto.precio></app-card>   
     </div>
     <div class="w-1/2">
         <app-card *ngFor="let producto of Lista2" [nombreProducto]=producto.nombre [imagenProducto]=producto.imagen [precioProducto]=producto.precio></app-card>    
     </div>
-</main>
+</div>
 <router-outlet></router-outlet>
-  
-    

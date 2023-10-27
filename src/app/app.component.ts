@@ -10,34 +10,34 @@ export class AppComponent {
   
   Lista1 : any[] = [
     {    
-      "nombre": "Earphones for Monitor",   
+      "nombre": "Audifonos diadema",   
       "imagen": "/assets/img/1.svg",   
-      "precio": 199,   
+      "precio": 209,   
     },
     {    
-      "nombre": "Earphones for Monitor",   
-      "imagen": "/assets/img/2.svg",   
-      "precio": 199,   
-    },
-    {    
-      "nombre": "Earphones for Monitor",   
+      "nombre": "Audifonos 2da generación",   
       "imagen": "/assets/img/3.svg",   
-      "precio": 199,   
+      "precio": 699,   
+    },
+    {    
+      "nombre": "Audifonos inhalambricos",   
+      "imagen": "/assets/img/5.svg",   
+      "precio": 99,   
     },
   ]
   Lista2 : any[] = [
     {    
-      "nombre": "Monitor LG 22'inc 4K",   
+      "nombre": "Air Pods 2da generación",   
+      "imagen": "/assets/img/2.svg",   
+      "precio": 899,   
+    },
+    {    
+      "nombre": "Audifonos marca Beat",   
       "imagen": "/assets/img/4.svg",   
-      "precio": 199,   
+      "precio": 599,   
     },
     {    
-      "nombre": "Monitor LG 22'inc 4K",   
-      "imagen": "/assets/img/5.svg",   
-      "precio": 199,   
-    },
-    {    
-      "nombre": "Monitor LG 22'inc 4K",   
+      "nombre": "Audifonos diadema cafe",   
       "imagen": "/assets/img/6.svg",   
       "precio": 199,   
     },
