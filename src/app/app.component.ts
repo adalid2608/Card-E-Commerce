@@ -43,7 +43,7 @@ export class AppComponent {
     },
   ]   
 
-  nombre : string = "Earphones for Monitor"
-  imagen : string = "/assets/img/2.svg"
-  precio : string = "100"
+  // nombre : string = "Earphones for Monitor"
+  // imagen : string = "/assets/img/2.svg"
+  // precio : string = "100"
 }
